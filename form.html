@@ -1,0 +1,20 @@
+<title>Form</title>
+<h1>Please Fill the form</h1>
+    <form action="https://formspree.io/wgowthami98@email.com" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name"><br>
+
+        <p>Does "Scroll to Top" functionality require CSS and JS?</p>
+          <label><input type="radio" name="scroll_to_top" value="Yes">Yes</label><br>
+          <label><input type="radio" name="scroll_to_top" value="No">No</label><br>
+
+        <p>Using the &lt;header&gt; tag will place prominent information on the top of your page.</p>
+          <label><input type="radio" name="header_tag" value="True">True</label><br>
+          <label><input type="radio" name="header_tag" value="False">False</label><br>
+
+        <p>If you want your text to be displayed in a larger font size, you can put it in a heading tag (&lt;h1&gt;, &lt;h2&gt;, etc.)  Why is this a bad idea?</p>
+           <label><input type="checkbox" name="headers" value="1">The headings are semantic -- they have special meaning.  When you use a heading you are implying that the text has extra importance.  If you just want larger font, you will need to learn how to use styling instead.</label><br>
+          <label><input type="checkbox" name="headers" value="2">You can only use the headings once in a page, so you can't always make everything large by using the tag.</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
