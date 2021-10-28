@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Web Page</title>
+</head>
+
+<body>
+    <h1 id = "top">Web Page</h1>
+    <h2>What is HTML?</h2>
+    <p>
+        HyperText (Text that contains links) Markup (annotate) Language  a way of marking up files so that browsers know how to display your content as a webpage.
+        Hyper media is an extension of hypertext
+    </p>
+
+    <p>    
+        HTML - structure CSS - style JS - behaviour or functionality    
+    </p>
+
+    <h2>History of HTML</h2>
+
+    <p>
+        Before 1997, no standards were there. 
+        In 1997, World wide web consortium (w3c) started HTML 4. 
+        2000 - XHTML 1
+        2004 (WHATWG - Web Hypertext Application Technology Group: HTML)
+        2007 - both started working together
+        2011 - HTML5
+    </p>
+
+    <h2>Anatomy of HTML</h3>
+    <p id = "myId">
+        Opening Tag, Closing Tag, Content, Element
+        br - line break, hr - horizantal rule
+        Attributes id="" (unique) only in opening tag
+        class = ""
+    </p>
+    <p onclick = "alert('hi')">Click</p>
+
+    <h2>HTML Document Structure</h2>
+    <p>
+        Sequentially (top to bottom) rendered
+    </p>
+
+    <h2>HTML Content Models</h2>
+    <div>
+        Traditional: block-level, inline
+        <span>HTML5:</span> metadata, flow, sectioning, heading, phrasing, embedded, interactive
+
+    </div>
+    <br>
+
+    <h2>Lists</h2>
+    <div>
+        <ul>
+            <li>one
+                <ol>
+                    <li>Ordered</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <h2> HTML Character Entity Refrences</h2>
+    <div>
+        less than, greater than and ampersent - Rendering Issues
+        &lt; &gt; &amp; 
+        one&nbsp;and&nbsp;two
+        &quot;
+    </div>
+
+    <h2> Links</h2>
+    <div>
+        Internal: <a href="index.html" title="index page">Index page</a>
+        <a href="index.html" title="index page"><div> DIV Index page</div></a>
+    </div>
+    <div>
+        External: <a href="https://www.google.com/" target="_blank" title="Page">Page</a>
+    </div>
+    <div>
+        Fragment Identifier: <a href="#section1">section 1</a>
+    </div>
+<!--comments-->
+    <div>
+        <p>Images:</p> 
+        <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" width="400" height="600" alt="Image">
+    </div>
+    <h2>Elements</h2>
+    <p>Headings h1 to h6</p>
+
+    Semantic Eements
+    <header>
+        logo
+        <nav>links to different web sites</nav>
+    </header>
+    <section  id="section1">
+        <article>hi</article>
+        <article>hola</article>
+    </section>
+    <aside>
+        related to main topic
+    </aside>
+    <footer>
+        Copyright &copy; <a href="#top">Scroll to top</a>
+    </footer>
+</body>
